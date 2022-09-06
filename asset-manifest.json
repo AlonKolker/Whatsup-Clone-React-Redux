@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/whatsup-clone-react-redux/static/css/main.eabb1f88.css",
-    "main.js": "/whatsup-clone-react-redux/static/js/main.81e70f85.js",
-    "static/js/787.0095a8e9.chunk.js": "/whatsup-clone-react-redux/static/js/787.0095a8e9.chunk.js",
-    "static/media/homeImg.png": "/whatsup-clone-react-redux/static/media/homeImg.a2a467e23e64f82440db.png",
-    "static/media/ICONCapture.PNG": "/whatsup-clone-react-redux/static/media/ICONCapture.bb8d95d0fc5b4401e8f6.PNG",
-    "static/media/chatBG.webp": "/whatsup-clone-react-redux/static/media/chatBG.fd141a069e3047d70ffb.webp",
-    "index.html": "/whatsup-clone-react-redux/index.html",
-    "main.eabb1f88.css.map": "/whatsup-clone-react-redux/static/css/main.eabb1f88.css.map",
-    "main.81e70f85.js.map": "/whatsup-clone-react-redux/static/js/main.81e70f85.js.map",
-    "787.0095a8e9.chunk.js.map": "/whatsup-clone-react-redux/static/js/787.0095a8e9.chunk.js.map"
+    "main.css": "/Whatsup-Clone-React-redux/static/css/main.5d60a65c.css",
+    "main.js": "/Whatsup-Clone-React-redux/static/js/main.aa2eb64f.js",
+    "static/js/787.0095a8e9.chunk.js": "/Whatsup-Clone-React-redux/static/js/787.0095a8e9.chunk.js",
+    "static/media/homeImg.png": "/Whatsup-Clone-React-redux/static/media/homeImg.a2a467e23e64f82440db.png",
+    "static/media/ICONCapture.PNG": "/Whatsup-Clone-React-redux/static/media/ICONCapture.bb8d95d0fc5b4401e8f6.PNG",
+    "static/media/chatBG.webp": "/Whatsup-Clone-React-redux/static/media/chatBG.fd141a069e3047d70ffb.webp",
+    "index.html": "/Whatsup-Clone-React-redux/index.html",
+    "main.5d60a65c.css.map": "/Whatsup-Clone-React-redux/static/css/main.5d60a65c.css.map",
+    "main.aa2eb64f.js.map": "/Whatsup-Clone-React-redux/static/js/main.aa2eb64f.js.map",
+    "787.0095a8e9.chunk.js.map": "/Whatsup-Clone-React-redux/static/js/787.0095a8e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eabb1f88.css",
-    "static/js/main.81e70f85.js"
+    "static/css/main.5d60a65c.css",
+    "static/js/main.aa2eb64f.js"
   ]
 }
