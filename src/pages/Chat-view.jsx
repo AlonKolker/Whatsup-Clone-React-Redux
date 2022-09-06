@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
 import { MsgPreview } from "../components/Msg-preview.jsx"
+import { ChatHeader } from "../components/Chat-hader.jsx"
 
 export const ChatView = () => {
   const contact = useSelector((state) => state.contactModule.contact)
@@ -33,6 +34,7 @@ export const ChatView = () => {
 
   return contact ? (
     <>
+          <ChatHeader />
     <main className='chat-view-conteiner main-layout'>
       {contact?.conversation?.map((msg) => (
         <MsgPreview key={msg.id} msg={msg} />

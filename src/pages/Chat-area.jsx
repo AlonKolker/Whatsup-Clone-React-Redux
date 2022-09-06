@@ -1,7 +1,7 @@
 import React from "react"
 import { HashRouter as Router, Navigate, Route, Routes } from "react-router-dom"
 
-import { ChatHeader } from "../components/Chat-hader.jsx"
+// import { ChatHeader } from "../components/Chat-hader.jsx"
 import { Home } from "../pages/home.jsx"
 import { ChatView } from "../pages/Chat-view.jsx"
 
@@ -14,7 +14,7 @@ export const ChatArea = () => {
 
   return (
     <main className='chat-area-conteiner'>
-      <ChatHeader />
+      {/* <ChatHeader /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/chat-view/:id' element={<ChatView />} />
