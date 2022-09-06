@@ -1,0 +1,19 @@
+.msg-preview-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    .msg-box{
+            position: absolute;
+
+        width: fit-content;
+        background: #00bfb6;
+        color: #fff;
+        padding: 6px;
+        border-radius: 12px;
+
+    }
+
+    
+}

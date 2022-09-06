@@ -1,0 +1,27 @@
+.contacts-conteiner {
+  background-color: #343f46;
+  border-right: 1px solid rgba(134, 150, 160, 0.15);
+  .filter-conteiner {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+        border-bottom: 1px solid gray;
+    .filter-contacts {
+
+      width: 70%;
+      height: 35px;
+      border-radius: 10px;
+      border: none;
+      background-color: #54656f;
+      color: white;
+      outline: none;
+      cursor: pointer;
+
+      padding: 10px;
+      &::placeholder {
+        text-align: center;
+        color: white;
+      }
+    }
+  }
+}

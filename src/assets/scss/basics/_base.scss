@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+// main-class main-class-header main-class-img main-class-log &-header
+
+html {
+  font-family: Roboto-Regular, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+  overflow: hidden
+}
+
+ul,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  cursor: auto;
+}
+
+

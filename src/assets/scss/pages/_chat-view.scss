@@ -1,0 +1,42 @@
+.chat-view-conteiner {
+  background-image: url(../../imgs/chatBG.webp);
+  background-size: 100%;
+  height: 88vh;
+  overflow-y: auto;
+}
+.send-msg-conteiner {
+  height: 12vh;
+  width: 100%;
+  background-color: #202c33;
+  text-align: center;
+  // position: absolute;
+  // bottom: 0;
+  // .test {
+  padding: 10px;
+  // width: 100%;
+
+  // button {
+  //   width: 10%;
+  // }
+  .send-icon {
+    color: white;
+    margin-inline-start: 15px;
+    cursor: pointer;
+
+  }
+  .input-chat-msg {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2a3942;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    &::placeholder {
+      padding-inline-start: 20px;
+      color: white;
+      // }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.contacts-preview-conteiner {
+  width: 350px;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  &:hover {
+    // opacity: 0.5;
+    background-color: #555c61;
+  }
+  .contacts-preview {
+    cursor: pointer;
+    // align-items: center;
+    //   justify-content: space-between;
+    display: flex;
+    //   flex-direction: column;
+    // padding:10px;
+    padding: 10px 10px 10px 0;
+    text-decoration: none;
+    color: white;
+    .contact-img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin-inline-end: 3px;
+    }
+    .first-row-preview {
+      // display: flex;
+      flex-grow: 1;
+      margin-inline-start: 10px;
+      .last-msg-preview {
+        font-size: 12px;
+      }
+    }
+    .seconed-row-preview {
+      .last-msg-time-date {
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+
+.main-app{
+    // display: flex;
+    display: grid;
+  grid-template-columns: 3fr 6fr;
+}
+
+.main-layout{
+  padding: 5px 17px 0 17px;
+}
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+}

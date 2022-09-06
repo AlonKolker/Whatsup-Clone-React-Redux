@@ -1,0 +1,19 @@
+.chat-header-conteiner {
+  display: flex;
+  align-items: center;
+  background-color: #202c33;
+  color: white;
+  height: 50px;
+  padding-bottom:7px;
+  // padding: 3px;
+  // box-sizing: border-box;
+  // border: 0.1px solid gray;
+  box-shadow: 0 1px 3px rgba(gray,.4);
+
+  .img-chat-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-inline-end: 20px;
+  }
+}

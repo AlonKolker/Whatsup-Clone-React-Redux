@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://localhost:3000/#/chat-view/455845495 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js.הורדה"></script><style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto-Regular, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  cursor: auto;
+}
+
+.main-app {
+  display: grid;
+  grid-template-columns: 3fr 6fr;
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.chat-view-conteiner {
+  background-image: url(http://localhost:3000/static/media/chatBG.fd141a069e3047d70ffb.webp);
+  background-size: 100%;
+  height: 100vh;
+}
+.chat-view-conteiner .input-chat-msg {
+  bottom: 0;
+  right: 0;
+  background-color: red;
+}
+
+.chat-header-conteiner {
+  background-color: #202c33;
+}
+
+.contacts-preview-conteiner {
+  display: flex;
+  padding: 3px;
+  margin: 3px;
+  width: 350px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+}
+.contacts-preview-conteiner .contact-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-inline-end: 3px;
+}
+
+.chat-header-conteiner {
+  display: flex;
+  align-items: center;
+  background-color: #202c33;
+  color: white;
+  height: 50px;
+  padding: 3px;
+}
+.chat-header-conteiner .img-chat-header {
+  width: 40px;
+  border-radius: 50%;
+  margin-inline-end: 20px;
+}
+
+.msg-preview-conteiner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.contact-header-conteiner {
+  height: 50px;
+  padding: 3px;
+  background-color: #202c33;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hc3NldHMvc2Nzcy9iYXNpY3MvX2Jhc2Uuc2NzcyIsIndlYnBhY2s6Ly8uL3NyYy9hc3NldHMvc2Nzcy9nbG9iYWwuc2NzcyIsIndlYnBhY2s6Ly8uL3NyYy9hc3NldHMvc2Nzcy9iYXNpY3MvX2xheW91dC5zY3NzIiwid2VicGFjazovLy4vc3JjL2Fzc2V0cy9zY3NzL3BhZ2VzL19jaGF0LXZpZXcuc2NzcyIsIndlYnBhY2s6Ly8uL3NyYy9hc3NldHMvc2Nzcy9jbXBzL191c2VyLWhlYWRlci5zY3NzIiwid2VicGFjazovLy4vc3JjL2Fzc2V0cy9zY3NzL2NtcHMvX2NvbnRhY3QtcHJldmlldy5zY3NzIiwid2VicGFjazovLy4vc3JjL2Fzc2V0cy9zY3NzL2NtcHMvX2NoYXQtaGVhZGVyLnNjc3MiLCJ3ZWJwYWNrOi8vLi9zcmMvYXNzZXRzL3Njc3MvY21wcy9fbXNnLXByZXZpZXcuc2NzcyIsIndlYnBhY2s6Ly8uL3NyYy9hc3NldHMvc2Nzcy9jbXBzL19jb250YWN0LWhlYWRlci5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsU0FBQTtFQUNBLFVBQUE7RUFDQSxzQkFBQTtBQ0NGOztBREtBO0VBQ0UsdUNBQUE7QUNGRjs7QURLQTtFQUNFLGtCQUFBO0FDRkY7O0FES0E7O0VBRUUsU0FBQTtBQ0ZGOztBREtBOzs7Ozs7RUFNRSxTQUFBO0VBQ0EsY0FBQTtBQ0ZGOztBREtBO0VBQ0UscUJBQUE7RUFDQSxZQUFBO0FDRkY7O0FDL0JBO0VBRUksYUFBQTtFQUNGLDhCQUFBO0FEaUNGOztBQzdCQTtFQUNFLFdBQUE7RUFDQSxrQkFBQTtBRGdDRjs7QUUxQ0E7RUFDRSx5REFBQTtFQUNBLHFCQUFBO0VBQ0EsYUFBQTtBRjZDRjtBRTVDRTtFQUNFLFNBQUE7RUFDQSxRQUFBO0VBQ0EscUJBQUE7QUY4Q0o7O0FHckRBO0VBQ0kseUJBQUE7QUh3REo7O0FJekRBO0VBQ0EsYUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLDhCQUFBO0FKNERBO0FJM0RJO0VBQ0ksa0JBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHNCQUFBO0FKNkRSOztBS3pFQTtFQUNFLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHlCQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSxZQUFBO0FMNEVGO0FLM0VFO0VBQ0UsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsdUJBQUE7QUw2RUo7O0FNdkZBO0VBQ0ksYUFBQTtFQUNBLHNCQUFBO0VBQ0EsZ0JBQUE7QU4wRko7O0FPN0ZBO0VBQ0ksWUFBQTtFQUNBLFlBQUE7RUFDQSx5QkFBQTtBUGdHSiIsInNvdXJjZXNDb250ZW50IjpbIioge1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nOiAwO1xyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcblxyXG59XHJcblxyXG4vLyBtYWluLWNsYXNzIG1haW4tY2xhc3MtaGVhZGVyIG1haW4tY2xhc3MtaW1nIG1haW4tY2xhc3MtbG9nICYtaGVhZGVyXHJcblxyXG5odG1sIHtcclxuICBmb250LWZhbWlseTogUm9ib3RvLVJlZ3VsYXIsIHNhbnMtc2VyaWY7XHJcbn1cclxuXHJcbmJvZHkge1xyXG4gIG92ZXJmbG93LXg6IGhpZGRlbjtcclxufVxyXG5cclxudWwsXHJcbnAge1xyXG4gIG1hcmdpbjogMDtcclxufVxyXG5cclxuaDEsXHJcbmgyLFxyXG5oMyxcclxuaDQsXHJcbmg1LFxyXG5oNiB7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIGNvbG9yOiBpbmhlcml0O1xyXG59XHJcblxyXG5hIHtcclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgY3Vyc29yOiBhdXRvO1xyXG59XHJcblxyXG5cclxuIiwiKiB7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbn1cblxuaHRtbCB7XG4gIGZvbnQtZmFtaWx5OiBSb2JvdG8tUmVndWxhciwgc2Fucy1zZXJpZjtcbn1cblxuYm9keSB7XG4gIG92ZXJmbG93LXg6IGhpZGRlbjtcbn1cblxudWwsXG5wIHtcbiAgbWFyZ2luOiAwO1xufVxuXG5oMSxcbmgyLFxuaDMsXG5oNCxcbmg1LFxuaDYge1xuICBtYXJnaW46IDA7XG4gIGNvbG9yOiBpbmhlcml0O1xufVxuXG5hIHtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBjdXJzb3I6IGF1dG87XG59XG5cbi5tYWluLWFwcCB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogM2ZyIDZmcjtcbn1cblxuLmF2YXRhciB7XG4gIHdpZHRoOiA0MHB4O1xuICBib3JkZXItcmFkaXVzOiA1MCU7XG59XG5cbi5jaGF0LXZpZXctY29udGVpbmVyIHtcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2ltZ3MvY2hhdEJHLndlYnApO1xuICBiYWNrZ3JvdW5kLXNpemU6IDEwMCU7XG4gIGhlaWdodDogMTAwdmg7XG59XG4uY2hhdC12aWV3LWNvbnRlaW5lciAuaW5wdXQtY2hhdC1tc2cge1xuICBib3R0b206IDA7XG4gIHJpZ2h0OiAwO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7XG59XG5cbi5jaGF0LWhlYWRlci1jb250ZWluZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjAyYzMzO1xufVxuXG4uY29udGFjdHMtcHJldmlldy1jb250ZWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBwYWRkaW5nOiAzcHg7XG4gIG1hcmdpbjogM3B4O1xuICB3aWR0aDogMzUwcHg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xufVxuLmNvbnRhY3RzLXByZXZpZXctY29udGVpbmVyIC5jb250YWN0LWltZyB7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgd2lkdGg6IDQwcHg7XG4gIGhlaWdodDogNDBweDtcbiAgbWFyZ2luLWlubGluZS1lbmQ6IDNweDtcbn1cblxuLmNoYXQtaGVhZGVyLWNvbnRlaW5lciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGJhY2tncm91bmQtY29sb3I6ICMyMDJjMzM7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgaGVpZ2h0OiA1MHB4O1xuICBwYWRkaW5nOiAzcHg7XG59XG4uY2hhdC1oZWFkZXItY29udGVpbmVyIC5pbWctY2hhdC1oZWFkZXIge1xuICB3aWR0aDogNDBweDtcbiAgYm9yZGVyLXJhZGl1czogNTAlO1xuICBtYXJnaW4taW5saW5lLWVuZDogMjBweDtcbn1cblxuLm1zZy1wcmV2aWV3LWNvbnRlaW5lciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIG1hcmdpbi10b3A6IDEwcHg7XG59XG5cbi5jb250YWN0LWhlYWRlci1jb250ZWluZXIge1xuICBoZWlnaHQ6IDUwcHg7XG4gIHBhZGRpbmc6IDNweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzIwMmMzMztcbn0iLCJcclxuLm1haW4tYXBwe1xyXG4gICAgLy8gZGlzcGxheTogZmxleDtcclxuICAgIGRpc3BsYXk6IGdyaWQ7XHJcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAzZnIgNmZyO1xyXG59XHJcblxyXG5cclxuLmF2YXRhciB7XHJcbiAgd2lkdGg6IDQwcHg7XHJcbiAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG59IiwiLmNoYXQtdmlldy1jb250ZWluZXIge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9pbWdzL2NoYXRCRy53ZWJwKTtcclxuICBiYWNrZ3JvdW5kLXNpemU6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDB2aDtcclxuICAuaW5wdXQtY2hhdC1tc2cge1xyXG4gICAgYm90dG9tOiAwO1xyXG4gICAgcmlnaHQ6IDA7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7XHJcbiAgfVxyXG59XHJcbiIsIi5jaGF0LWhlYWRlci1jb250ZWluZXJ7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjAyYzMzO1xyXG5cclxufSIsIi5jb250YWN0cy1wcmV2aWV3LWNvbnRlaW5lcntcclxuZGlzcGxheTogZmxleDtcclxucGFkZGluZzogM3B4O1xyXG5tYXJnaW46IDNweDtcclxud2lkdGg6IDM1MHB4O1xyXG5jdXJzb3I6IHBvaW50ZXI7XHJcbmFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbmp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgIC5jb250YWN0LWltZ3tcclxuICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgICAgICAgd2lkdGg6IDQwcHg7XHJcbiAgICAgICAgaGVpZ2h0OiA0MHB4O1xyXG4gICAgICAgIG1hcmdpbi1pbmxpbmUtZW5kOiAzcHg7XHJcbiAgICB9XHJcbn0iLCIuY2hhdC1oZWFkZXItY29udGVpbmVyIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzIwMmMzMztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgaGVpZ2h0OiA1MHB4O1xyXG4gIHBhZGRpbmc6IDNweDtcclxuICAuaW1nLWNoYXQtaGVhZGVyIHtcclxuICAgIHdpZHRoOiA0MHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG4gICAgbWFyZ2luLWlubGluZS1lbmQ6IDIwcHg7XHJcbiAgfVxyXG59XHJcbiIsIi5tc2ctcHJldmlldy1jb250ZWluZXJ7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbn0iLCIuY29udGFjdC1oZWFkZXItY29udGVpbmVye1xyXG4gICAgaGVpZ2h0OiA1MHB4O1xyXG4gICAgcGFkZGluZzogM3B4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzIwMmMzMztcclxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style><style type="text/css"></style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App main-app"><main class="contacts-conteiner"><main class="contact-header-conteiner"><img class="avatar" src="./React App_files/icon-256x256.png" alt=""></main><input type="text" placeholder="Start to chat"><main class="contacts-list-conteiner"><main class="contacts-preview-conteiner"><a class="contacts-preview-conteiner" exact="true" href="http://localhost:3000/#/chat-view/153268926"><img class="contact-img" src="./React App_files/12832510_10208941747321576_5807403953123434866_n.jpg" alt=""><div>Alon Kolker</div><div>Hey bro!</div><div>05:32 am</div></a></main><main class="contacts-preview-conteiner"><a class="contacts-preview-conteiner" exact="true" href="http://localhost:3000/#/chat-view/45484518715"><img class="contact-img" src="./React App_files/278124424_10159818441575489_4786020087784983543_n.jpg" alt=""><div>Guy Kadosh</div><div>I will call later</div><div>05:32 am</div></a></main><main class="contacts-preview-conteiner"><a class="contacts-preview-conteiner" exact="true" href="http://localhost:3000/#/chat-view/4548454"><img class="contact-img" src="./React App_files/81697857_3137120692982893_582755546566754304_n.jpg" alt=""><div>Itamar Zaguri</div><div>He dosent replay</div><div>05:32 am</div></a></main><main class="contacts-preview-conteiner"><a class="contacts-preview-conteiner" exact="true" href="http://localhost:3000/#/chat-view/455845495"><img class="contact-img" src="./React App_files/70505272_10218109318757002_5567079211132256256_n.jpg" alt=""><div>Matan Hatuli</div><div>Im a cat</div><div>05:32 am</div></a></main></main></main><main class="chat-area-conteiner"><main class="chat-header-conteiner"><img class="img-chat-header" src="./React App_files/70505272_10218109318757002_5567079211132256256_n.jpg" alt=""><div>Matan Hatuli</div></main><main class="chat-view-conteiner"><main class="msg-preview-conteiner"><div style="text-align: left;">Hey Matan 😁</div></main><main class="msg-preview-conteiner"><div style="text-align: right;">Hey, What's up?</div></main><main class="msg-preview-conteiner"><div style="text-align: left;">All Good, What about you?</div></main><main class="msg-preview-conteiner"><div style="text-align: right;">I'm good as well</div></main><main class="msg-preview-conteiner"><div style="text-align: left;">Great 😁</div></main><main class="msg-preview-conteiner"><div style="text-align: right;">Have you subscribed The Indian Dev ?</div></main><main class="msg-preview-conteiner"><div style="text-align: left;">מה קורה אלוף?</div></main><form><label for="chatMsg"></label><input type="text" name="chatMsg" id="chatMsg" placeholder="Whats on your mind?" class="input-chat-msg" style="
+    bottom: 0;
+    right: 0;
+"><button class="send-msg">Send</button></form></main></main></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>
