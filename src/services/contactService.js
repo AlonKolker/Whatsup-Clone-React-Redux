@@ -852,7 +852,7 @@ const demoContacts = [
       "name": "Shoki",
       "_id": "454845446854",
       "img": "https://iili.io/pYEaql.jpg",
-      "lastMsg": "Everything is wonderful, we are doing great?",
+      "lastMsg": "Everything is wonderful, we are doing great!",
       "lastMsgTime": 1519911809934,
       "lastMsgId": 6,
       "conversation": [
@@ -901,7 +901,7 @@ const demoContacts = [
           {
             "id": 7,
             "messageType": "TEXT",
-            "text": "Everything is wonderful, we are doing great",
+            "text": "Everything is wonderful, we are doing great!",
             "senderID": 0,
             "addedOn": "12:00 PM"
         }
