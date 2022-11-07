@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Whatsup-Clone-React-Redux/static/css/main.0c5737b9.css",
-    "main.js": "/Whatsup-Clone-React-Redux/static/js/main.6695aa6d.js",
+    "main.js": "/Whatsup-Clone-React-Redux/static/js/main.776ee346.js",
     "static/js/787.0095a8e9.chunk.js": "/Whatsup-Clone-React-Redux/static/js/787.0095a8e9.chunk.js",
     "static/media/homeImg.png": "/Whatsup-Clone-React-Redux/static/media/homeImg.a2a467e23e64f82440db.png",
     "static/media/ICONCapture.PNG": "/Whatsup-Clone-React-Redux/static/media/ICONCapture.bb8d95d0fc5b4401e8f6.PNG",
     "static/media/chatBG.webp": "/Whatsup-Clone-React-Redux/static/media/chatBG.fd141a069e3047d70ffb.webp",
     "index.html": "/Whatsup-Clone-React-Redux/index.html",
     "main.0c5737b9.css.map": "/Whatsup-Clone-React-Redux/static/css/main.0c5737b9.css.map",
-    "main.6695aa6d.js.map": "/Whatsup-Clone-React-Redux/static/js/main.6695aa6d.js.map",
+    "main.776ee346.js.map": "/Whatsup-Clone-React-Redux/static/js/main.776ee346.js.map",
     "787.0095a8e9.chunk.js.map": "/Whatsup-Clone-React-Redux/static/js/787.0095a8e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c5737b9.css",
-    "static/js/main.6695aa6d.js"
+    "static/js/main.776ee346.js"
   ]
 }
