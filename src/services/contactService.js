@@ -431,7 +431,7 @@ const demoContacts = [
   {
       "_id": "153268926",
       "name": "Alon Kolker",
-      "img": "https://scontent.fhfa2-2.fna.fbcdn.net/v/t1.18169-9/12832510_10208941747321576_5807403953123434866_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=BNwBdPG-ZwIAX8OgOoM&_nc_ht=scontent.fhfa2-2.fna&oh=00_AT-6rC4SDm3-1koWSOTWrEVzuF0ry15-dYHYhNOGWw7bCw&oe=6337CA99",
+      "img": "https://iili.io/pYnV7S.jpg",
       "lastMsg": "Trust you bro!",
       "lastMsgTime": Date.now(),
       "lastMsgId": 12,
