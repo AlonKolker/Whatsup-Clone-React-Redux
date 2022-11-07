@@ -430,7 +430,7 @@ const CONTACTS = "contactsDB"
 const demoContacts = [
   {
       "_id": "153268926",
-      "name": "Alon Kolker",
+      "name": "Alon Cohen",
       "img": "https://iili.io/pYnV7S.jpg",
       "lastMsg": "Trust you bro!",
       "lastMsgTime": Date.now(),
@@ -523,9 +523,9 @@ const demoContacts = [
       ]
   },
   {
-      "name": "Guy Kadosh",
+      "name": "Mister guy",
       "_id": "45484518715",
-      "img": "https://scontent.fhfa2-2.fna.fbcdn.net/v/t39.30808-6/278124424_10159818441575489_4786020087784983543_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=c9wfqwF9iooAX_jYTsN&_nc_ht=scontent.fhfa2-2.fna&oh=00_AT-yX4OSoS-dQIY0--hrGACXCKMGEohzOwOe_i0XR5vkaQ&oe=6316CD37",
+      "img": "https://iili.io/pYlRzx.jpg",
       "lastMsg": "Bring your family👩‍👩‍👧‍👦",
       "lastMsgTime": Date.now(),
       "lastMsgId": 6,
@@ -575,7 +575,7 @@ const demoContacts = [
       ]
   },
     {
-      "name": "Miel Kolker",
+      "name": "Miel C K",
       "_id": "45as6918715",
       "img": "https://i.imgur.com/rqXaHEe.jpeg",
       "lastMsg": "Yeyy! i cant wait🎆🎈",
@@ -627,9 +627,9 @@ const demoContacts = [
       ]
   },
   {
-      "name": "Itamar Zaguri",
+      "name": "Itamar Lapid",
       "_id": "4548454",
-      "img": "https://scontent.fhfa2-2.fna.fbcdn.net/v/t1.6435-9/81697857_3137120692982893_582755546566754304_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=EtZd5MgNXzIAX-Vja_R&_nc_ht=scontent.fhfa2-2.fna&oh=00_AT8OV4tf52ZnrNMR48yCRqsl3CpxwlEPnxHyDeQvZ0-GJA&oe=6335F01D",
+      "img": "https://iili.io/pYlN1I.jpg",
       "lastMsg": "I have to go now, see you at the meeting.",
       "lastMsgTime": Date.now(),
       "lastMsgId": 7,
@@ -686,9 +686,9 @@ const demoContacts = [
       ]
   },
   {
-      "name": "Matan Hatuli",
+      "name": "Matan Parienti",
       "_id": "455845495",
-      "img": "https://scontent.fhfa2-2.fna.fbcdn.net/v/t1.6435-9/70505272_10218109318757002_5567079211132256256_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=lZZQUf1hyCsAX86vUAt&_nc_ht=scontent.fhfa2-2.fna&oh=00_AT9QgxSm67oVC5cgklu1EKYn2pJn84yd_R4BEdkax3GPsQ&oe=6336D838",
+      "img": "https://iili.io/pY0I4I.md.jpg",
       "lastMsg": "If so we will do it today",
       "lastMsgTime": Date.now(),
       "lastMsgId": 6,
@@ -739,8 +739,8 @@ const demoContacts = [
   },
   {
       "_id": "35900268926",
-      "name": "Alen Chernick",
-      "img": "https://scontent.fhfa2-2.fna.fbcdn.net/v/t1.6435-9/54255417_10212710478740823_758990888083914752_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=84a396&_nc_ohc=LM5dvBoOf7gAX8iUBCe&_nc_ht=scontent.fhfa2-2.fna&oh=00_AT89bIi8KY6dadHV_GDUKRqNMUIp7J9bsGqtrmfjNmbkAQ&oe=633B26C1",
+      "name": "Alen Chernoi",
+      "img": "https://iili.io/pYabae.jpg",
       "lastMsg": "Yes, I think Vue is much more efficient",
       "lastMsgTime": Date.now(),
       "lastMsgId": 7,
@@ -797,9 +797,9 @@ const demoContacts = [
       ]
   },
   {
-      "name": "Yuval Shmkler",
+      "name": "Yuval Misterbit",
       "_id": "454196258715",
-      "img": "https://scontent.fhfa2-2.fna.fbcdn.net/v/t39.30808-6/271554926_4863694470319876_5475864369642688973_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=g05s0B3I410AX-WZGB5&_nc_ht=scontent.fhfa2-2.fna&oh=00_AT89kjFVmTYsY9hRlw3SZOSjBbphQAfz67TNslskJ3lxzg&oe=6319A183",
+      "img": "https://iili.io/pY1rf2.jpg",
       "lastMsg": "Thanks! I will update soon!",
       "lastMsgTime": Date.now(),
       "lastMsgId": 6,
@@ -851,7 +851,7 @@ const demoContacts = [
   {
       "name": "Shoki",
       "_id": "454845446854",
-      "img": "https://scontent.fhfa2-2.fna.fbcdn.net/v/t39.30808-1/285594330_10229152474585274_5369988111926164076_n.jpg?stp=c0.20.200.200a_dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kxhxEShWfjAAX9IoKms&tn=cy01C5YiP5UABt82&_nc_ht=scontent.fhfa2-2.fna&oh=00_AT8bxmIC3v4E0pFkyK0eB8A_wsNMGotcNWIexpFIUawJsA&oe=631A9E5E",
+      "img": "https://iili.io/pYEaql.jpg",
       "lastMsg": "Everything is wonderful, we are doing great?",
       "lastMsgTime": 1519911809934,
       "lastMsgId": 6,
@@ -910,7 +910,7 @@ const demoContacts = [
   {
       "name": "Zlil",
       "_id": "23926896364816599",
-      "img": "https://scontent.fhfa2-2.fna.fbcdn.net/v/t1.6435-9/205446347_10222018966935034_2113396743656864804_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=COEvhtkBo8oAX-zQFDo&_nc_oc=AQltquYUJbKBLdX6slrSwahid6Ucz26JnkmtWpcWgOfYxRGj3lib-3GGed01O9ZWKyE&_nc_ht=scontent.fhfa2-2.fna&oh=00_AT84UsBeGztJCena4ilgWwXpTkSNi0veGMr_prvj6z0bAQ&oe=633AE8C0",
+      "img": "https://iili.io/pYEDpn.jpg",
       "lastMsg": "I'm sure, in a year you'll be somewhere else.",
       "lastMsgTime":1519211809934,
       "lastMsgId": 6,
