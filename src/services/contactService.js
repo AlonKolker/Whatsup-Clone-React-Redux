@@ -527,7 +527,7 @@ const demoContacts = [
       "_id": "45484518715",
       "img": "https://iili.io/pYlRzx.jpg",
       "lastMsg": "Bring your family👩‍👩‍👧‍👦",
-      "lastMsgTime": Date.now(),
+      "lastMsgTime": 1519911809930,
       "lastMsgId": 6,
       "conversation": [
           {
@@ -742,7 +742,7 @@ const demoContacts = [
       "name": "Alen Chernoi",
       "img": "https://iili.io/pYabae.jpg",
       "lastMsg": "Yes, I think Vue is much more efficient",
-      "lastMsgTime": Date.now(),
+      "lastMsgTime": 1519911869934,
       "lastMsgId": 7,
       "conversation": [
           {
@@ -1249,12 +1249,11 @@ async function getContactById(contactId) {
 
 async function sendMsg(msg, contactId) {
   let currContact = await storageService.get(CONTACTS, contactId)
-  console.log(currContact)
   let newMsg = {
     id: ++currContact.lastMsgId,
     messageType: "TEXT",
     text: msg,
-    senderID: 0,
+    senderID: 1,
     addedOn: Date.now(),
   }
   currContact.conversation.push(newMsg)

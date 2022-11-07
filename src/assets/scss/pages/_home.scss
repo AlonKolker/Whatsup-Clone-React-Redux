@@ -21,4 +21,10 @@
     font-size: 16px;
     font-weight: 400;
   }
+  .home-img {
+   width: auto;
+   @include for-mobile-layout {
+   width: 70%;
+  }
+  }
 }

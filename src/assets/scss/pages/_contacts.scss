@@ -24,4 +24,10 @@
       }
     }
   }
+
+
+  @include for-mobile-layout {
+    font-size: 12px;
+    // display: none;
+        }
 }

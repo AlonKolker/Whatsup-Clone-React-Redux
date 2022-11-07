@@ -1,19 +1,22 @@
-.msg-preview-conteiner{
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-    width: 100%;
-    position: relative;
-    .msg-box{
-            position: absolute;
+.msg-preview-conteiner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  width: 100%;
+  position: relative;
 
-        width: fit-content;
-        background: #00bfb6;
-        color: #fff;
-        padding: 6px;
-        border-radius: 12px;
+  .msg-box {
+    position: absolute;
 
+    width: fit-content;
+    background: #00bfb6;
+    color: #fff;
+    padding: 6px;
+    border-radius: 12px;
+    @include for-mobile-layout {
+      font-size: 13px;
+      height: fit-content;
+    //   margin-bottom: 30px;
     }
-
-    
+  }
 }
