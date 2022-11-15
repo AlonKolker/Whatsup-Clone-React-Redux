@@ -45,7 +45,7 @@ export const ChatView = () => {
           <label htmlFor='chatMsg'></label>
           <input className='input-chat-msg' type='text' name='chatMsg' id='chatMsg' placeholder='Start typing' />
           {/* <button className='send-msg'>Send</button> */}
-          <FontAwesomeIcon className='send-icon' icon={faPaperPlane}/>
+          <FontAwesomeIcon onClick={()=>{onSendMsg()}} className='send-icon' icon={faPaperPlane}/>
         {/* </div> */}
       </form>
         </>
